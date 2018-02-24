@@ -1,0 +1,41 @@
+body {
+    background-color: #CFFEF1;
+}
+
+img {
+    width: 250px;
+    height: 335px;
+    border-radius: 10px;
+}
+
+a img {
+    display:none;
+}
+ 
+a:hover img {
+    display:block; 
+}
+
+.text {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.text .define {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.text:hover .define {
+    visibility: visible;
+}
