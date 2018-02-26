@@ -39,6 +39,7 @@ body {
 
 .navigational-bar {
     position: absolute;
+    top: 100px;
     left: 60px;
 }
 
@@ -92,4 +93,5 @@ iframe {
     width: 100%;
     text-align: center;
     font-family: monospace;
+    font-size: 15px;
 }
